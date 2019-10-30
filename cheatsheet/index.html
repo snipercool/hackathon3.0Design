@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Cheatsheet:</h1>
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Get/make repository</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body1">What does this do?</button>
+            </div>
+            <div id="git-body1" class="collapse">
+                <img src="images/get.PNG" alt="get/make repository" >
+            </div>
+        </div>
+
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Git add .</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body2">What does this do?</button>
+            </div>
+            <div id="git-body2" class="collapse">
+                <p>Adds all files that are changed in your repository.</p>
+            </div>
+        </div>
+
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Git commit -m ""</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body3">What does this do?</button>
+            </div>
+            <div id="git-body3" class="collapse">
+                <p>makes your files ready to push to your online repository. place a useful message between the "".</p>
+                <p>The message is not only for you but for your team so they know what you changed in your files.</p>
+                <p>Example: git commit -m "Added starting files for this workshop"</p>
+        
+            </div>
+        </div>
+
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Git push</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body4">What does this do?</button>
+            </div>
+            <div id="git-body4" class="collapse">
+                <p>Pushes all the files you commited to your repository on github.</p>
+            </div>
+        </div>
+
+        <div class="git-block">
+                <div class="git-head">
+                    <h4>Git pull</h4>
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body5">What does this do?</button>
+                </div>
+                <div id="git-body5" class="collapse">
+                    <p>If a teammate pushed code on the repository you have to pull the newly changed code to your files.</p>
+                </div>
+            </div>
+
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Git branch</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body6">What does this do?</button>
+            </div>
+            <div id="git-body6" class="collapse">
+                <p>Shows all the branshed in the repository.</p>
+            </div>
+        </div>
+
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Git branch &lt;name&gt;</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body7">What does this do?</button>
+            </div>
+            <div id="git-body7" class="collapse">
+                <p>Creats a branch in the repository.</p>
+            </div>
+        </div>
+
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Git branch -d &lt;name&gt;</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body8">What does this do?</button>
+            </div>
+            <div id="git-body8" class="collapse">
+                <p>Deletes a branch in the repository.</p>
+            </div>
+        </div>
+
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Git branch checkout &lt;name&gt;</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body9">What does this do?</button>
+            </div>
+            <div id="git-body9" class="collapse">
+                <p>Switch between branches in your repository.</p>
+                <p>Example: You are on branch master with git branch checkout login you switch to the branch login.</p>
+            </div>
+        </div>
+
+        <div class="git-block">
+            <div class="git-head">
+                <h4>Git merge</h4>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#git-body10">What does this do?</button>
+            </div>
+            <div id="git-body10" class="collapse">
+                <p>merges the diffrences between 2 branches.</p>
+                <p>Example: You are on branch login before merging with master merge master with login on your branch make sure everything works and afterwards merge login with master.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
